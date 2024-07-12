@@ -12,7 +12,7 @@ export default function Icon({name="email",size=40,backgroundColor='black',iconC
         alignItems : 'center',
         justifyContent : 'center'
     }}>
-      <MaterialCommunityIcons name={name} color={iconColor} size={size*0.5} />
+      <MaterialCommunityIcons name={name} backgroundColor={backgroundColor} color={iconColor} size={size*0.5} />
     </View>
   )
 }
